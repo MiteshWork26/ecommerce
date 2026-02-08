@@ -1,0 +1,210 @@
+export const categories = [
+  { _id: "1", name: "skin-care" },
+  { _id: "2", name: "trimmer" },
+  { _id: "3", name: "jewellary" },
+  { _id: "4", name: "toys" },
+];
+
+export const items = [
+  {
+    _id: "1",
+    name: "Age Control Combo",
+    price: 2999,
+    offerPrice: 1499,
+    description: "100% Natural, 100% Organic, 100% Pure",
+    category: { _id: "1", name: "skin-care" },
+    image:
+      "https://www.osheaherbals.com/cdn/shop/files/aef6f406960c1d1902ca1.png?v=1752497473&width=1946",
+    images: [
+      "https://www.osheaherbals.com/cdn/shop/files/aef6f406960c1d1902ca1.png?v=1752497473&width=1946",
+      "https://www.osheaherbals.com/cdn/shop/files/WhyChooseUsAgeControlComboOsheaHerbals.jpg?v=1716795685&width=1946",
+      "https://www.osheaherbals.com/cdn/shop/files/HowToUseAgeControlComboOsheaHerbals.jpg?v=1716795685&width=1946",
+      "https://www.osheaherbals.com/cdn/shop/files/BenefitsAgeControlComboOsheaHerbals.jpg?v=1716795685&width=1946",
+      "https://www.osheaherbals.com/cdn/shop/files/BackAgeControlComboOsheaHerbals.jpg?v=1716795685&width=1946",
+      "https://www.osheaherbals.com/cdn/shop/files/AwardsAgeControlComboOsheaHerbals.jpg?v=1716795685&width=1946",
+    ],
+    availability: true,
+    rating: 4.8,
+    numReviews: 50,
+  },
+  {
+    _id: "2",
+    name: "Anti-Acne Essentials Kit",
+    price: 2199,
+    offerPrice: 1199,
+    description: "Treat Acne | Strengthens Barrier",
+    category: { _id: "1", name: "skin-care" },
+    image: "https://mirabellecosmetics.in/cdn/shop/files/2.jpg?v=1752739009",
+    images: [
+      "https://mirabellecosmetics.in/cdn/shop/files/2.jpg?v=1752739009",
+      "https://mirabellecosmetics.in/cdn/shop/files/3.jpg?v=1752739019",
+      "https://mirabellecosmetics.in/cdn/shop/files/7.jpg?v=1752739019",
+    ],
+    availability: true,
+    rating: 4.4,
+    numReviews: 20,
+  },
+  {
+    _id: "3",
+    name: "Brightening & Hydrating Mousse Facewash",
+    price: 850,
+    offerPrice: 499,
+    description:
+      "India’s first soap-free mousse face wash with healing and hydrating properties. Enriched with Colloidal Silver, AHA, Witch Hazel, and Vitamin C, it gently cleanses, brightens, and refreshes your skin.",
+    category: { _id: "1", name: "skin-care" },
+    image:
+      "https://skindulge.in/cdn/shop/files/B_H_Feature_Image.jpg?v=1734939369&width=600",
+    images: [
+      "https://skindulge.in/cdn/shop/files/B_H_Feature_Image.jpg?v=1734939369&width=600",
+      "https://skindulge.in/cdn/shop/files/Facewash_Feature_Image_014a56c3-432c-44b7-893b-6aaece92b700.jpg?v=1734939369&width=600",
+    ],
+    availability: true,
+    rating: 4,
+    numReviews: 17,
+  },
+  {
+    _id: "4",
+    name: "Minimalist 10% Vitamin C Serum",
+    price: 649,
+    offerPrice: 399,
+    description: "Glow boosting serum for dull skin",
+    category: { _id: "1", name: "skin-care" },
+    image:
+      "https://images-static.nykaa.com/media/catalog/product/3/9/394e9c5MINIM00000008_a.jpg",
+    images: [
+      "https://images-static.nykaa.com/media/catalog/product/3/9/394e9c5MINIM00000008_a.jpg",
+      "https://images-static.nykaa.com/media/catalog/product/b/4/b432d2eMINIM00000008_3.jpg",
+      "https://images-static.nykaa.com/media/catalog/product/b/4/b432d2eMINIM00000008_6.jpg",
+      "https://images-static.nykaa.com/media/catalog/product/b/4/b432d2eMINIM00000008_8.jpg",
+      "https://images-static.nykaa.com/media/catalog/product/b/4/b432d2eMINIM00000008_4.jpg",
+    ],
+    availability: true,
+    rating: 4.8,
+    numReviews: 14,
+  },
+  {
+    _id: "5",
+    name: "12-in-1 Legend365 Trimmer",
+    price: 1999,
+    offerPrice: 1199,
+    description:
+      "Legend 365 is built for the long haul — 300 minutes of runtime on a single charge. Trim today, tomorrow, all year",
+    category: { _id: "2", name: "trimmer" },
+    image:
+      "https://www.bombayshavingcompany.com/cdn/shop/files/Copyof1_ac96d242-8791-47fd-a738-dc7a4bcb5c62_480x480.webp?v=1755583679",
+    images: [
+      "https://www.bombayshavingcompany.com/cdn/shop/files/Copyof1_ac96d242-8791-47fd-a738-dc7a4bcb5c62_480x480.webp?v=1755583679",
+      "https://www.bombayshavingcompany.com/cdn/shop/files/Copyof2_864d5d13-f449-4ecd-b370-c94433d9f8e9_480x480.webp?v=1755583682",
+      "https://www.bombayshavingcompany.com/cdn/shop/files/Copyof3_3141ed56-1606-4b08-ac39-c1fa582c7e40_480x480.webp?v=1755583685",
+      "https://www.bombayshavingcompany.com/cdn/shop/files/Copyof5_39b34bb3-3722-46ac-9b4c-d3a086731d0f_480x480.webp?v=1755584051",
+    ],
+    availability: true,
+    rating: 4.2,
+    numReviews: 125,
+  },
+  {
+    _id: "6",
+    name: "Menhood® Grooming Trimmer 1.0",
+    price: 3199,
+    offerPrice: 1999,
+    description:
+      "Menhood’s ball trimmer makes manscaping easy, it’s Ceramic blades are designed specifically to handle sensitive skin. Packed with several features that make it the best grooming trimmer",
+    category: { _id: "2", name: "trimmer" },
+    image:
+      "https://menhood.in/cdn/shop/files/Trimmer_1.0_e9b7b52d-4e45-49a9-ba1f-073b52d98146.webp?v=1765277700&width=1946",
+    images: [
+      "https://menhood.in/cdn/shop/files/Trimmer_1.0_e9b7b52d-4e45-49a9-ba1f-073b52d98146.webp?v=1765277700&width=1946",
+      "https://menhood.in/cdn/shop/files/non_shield_trimmerwebp.webp?v=1770195004&width=1946",
+      "https://menhood.in/cdn/shop/files/5_copy_d1a2e4dc-d051-46e3-8eb0-8a0ef0c71641.webp?v=1765277700&width=1946",
+      "https://menhood.in/cdn/shop/files/Curved_ceramic_blade.webp?v=1768637175&width=1946",
+      "https://menhood.in/cdn/shop/products/trimmer-1.0-duo-mode-1.webp?v=1768637175&width=1946",
+      "https://menhood.in/cdn/shop/files/1_608d4e56-35dc-4541-8126-4fec83c24972.webp?v=1768637175&width=1946",
+      "https://menhood.in/cdn/shop/files/1.0-pro-black_copy.webp?v=1768637997&width=1946",
+    ],
+    availability: true,
+    rating: 5,
+    numReviews: 78,
+  },
+  {
+    _id: "7",
+    name: "Boho Wander Neckpiece",
+    price: 999,
+    offerPrice: 599,
+    description:
+      "This charming, whimsical neckpiece is full of playful and eclectic energy — featuring charms like a palm tree, elephant, snake, pearl, and colorful motifs. It’s perfect for a sunny, tropical, free-spirited vibe.",
+    category: { _id: "3", name: "jewellary" },
+    image:
+      "https://yashnacrafts.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-15-at-17.26.02.jpeg",
+    images: [
+      "https://yashnacrafts.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-15-at-17.26.02.jpeg",
+      "https://yashnacrafts.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-15-at-17.26.02-1.jpeg",
+      "https://yashnacrafts.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-15-at-17.26.01-2.jpeg",
+    ],
+    availability: true,
+    rating: 5,
+    numReviews: 200,
+  },
+  {
+    _id: "8",
+    name: "Blue American Diamond Zirconia Two-Layered Necklace Set",
+    price: 3499,
+    offerPrice: 2499,
+    description: "Blue American Diamond Zirconia Two-Layered Necklace Set",
+    category: { _id: "3", name: "jewellary" },
+    image:
+      "https://rubans.in/cdn/shop/files/rubans-rhodium-plated-blue-sapphire-aaa-cubic-zirconia-luxe-statement-jewellery-set-in-silver-tone-for-women-jewellery-set-1147471389.jpg?format=webp&v=1770271602&width=1800",
+    images: [
+      "https://rubans.in/cdn/shop/files/rubans-rhodium-plated-blue-sapphire-aaa-cubic-zirconia-luxe-statement-jewellery-set-in-silver-tone-for-women-jewellery-set-1147471389.jpg?format=webp&v=1770271602&width=1800",
+      "https://rubans.in/cdn/shop/files/rubans-rhodium-plated-blue-sapphire-aaa-cubic-zirconia-luxe-statement-jewellery-set-in-silver-tone-for-women-jewellery-set-1203270406.jpg?format=webp&v=1770271602&width=1800",
+      "https://rubans.in/cdn/shop/files/rubans-rhodium-plated-blue-sapphire-aaa-cubic-zirconia-luxe-statement-jewellery-set-in-silver-tone-for-women-jewellery-set-1203270403.jpg?format=webp&v=1770271602&width=1800",
+    ],
+    availability: true,
+    rating: 4.7,
+    numReviews: 104,
+  },
+  {
+    _id: "9",
+    name: "Lifelong Rechargeable Remote Control Car for Kids",
+    price: 2999,
+    offerPrice: 699,
+    description:
+      "2.4GHz, LED Headlights, Up to 90 to 120 min Non-Stop Play Time, 125ft Remote Range, Type-C Charging, Anti-Skid Tyres, BIS Certified, USB Cable",
+    category: { _id: "4", name: "toys" },
+    image: "https://m.media-amazon.com/images/I/61ey+Lc-BQL._SX522_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/61ey+Lc-BQL._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/61sYZv1PFCL._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/71O0-0HzOKL._SX522_.jpg",
+    ],
+    availability: true,
+    rating: 4.2,
+    numReviews: 74,
+  },
+  {
+    _id: "10",
+    name: "Mirana Vande Bharat Bullet Train Toy Set for Kids",
+    price: 699,
+    offerPrice: 299,
+    description:
+      "Multiple Railway Track Layout, AAA Battery Operated, Fun Gift for Boys & Girls 1+ Years, Made in India (Basic - 43 pcs)",
+    category: { _id: "4", name: "toys" },
+    image: "https://m.media-amazon.com/images/I/61jA-v+qZ6L._SX522_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/61jA-v+qZ6L._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/61kA2A4qy+L._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/61Ng-qB+8IL._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/61+Y7POnNqL._SX522_.jpg",
+    ],
+    availability: true,
+    rating: 4.1,
+    numReviews: 477,
+  },
+];
+
+export const user = {
+  _id: "u1",
+  name: "Unknown User",
+  email: "unknown@luxe.com",
+  token: "mock-jwt-token",
+  isAdmin: false,
+};
